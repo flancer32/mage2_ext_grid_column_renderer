@@ -6,7 +6,7 @@
  * Since: 2018
  */
 
-use Flancer32\LoginAs\Config as Cfg;
+use Flancer32\GridLink\Config as Cfg;
 use Magento\Framework\Component\ComponentRegistrar as Registrar;
 
 Registrar::register(
