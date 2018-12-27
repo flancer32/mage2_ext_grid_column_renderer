@@ -8,7 +8,7 @@ define([
     "use strict";
 
     /**
-     * Remove route part from BASE URL (http://.../admin/customer/ => http://.../admin).
+     * Remove route part from BASE URL (http://.../admin/controller/action/... => http://.../admin).
      *
      * BASE_URL see at "./module-backend/view/adminhtml/templates/page/js/require_js.phtml"
      */
@@ -26,9 +26,13 @@ define([
              * Replace idAttrName & route in children.
              */
             /* name of the identification attribute */
-            idAttrName: "increment_id",
+            idAttrName: "id",
             /* route part to the page */
-            route: "/customer/index/edit/id/",
+            route: "/controller/action/id_param/",
+            /**
+             * Permanent defaults (are not changed in children):
+             */
+            /* path to template: ./magento/module-ui/view/base/web/templates/grid/cells/link.html*/
             bodyTmpl: "ui/grid/cells/link"
         },
 
