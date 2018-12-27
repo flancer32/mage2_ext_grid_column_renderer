@@ -5,6 +5,11 @@ Example of the grid's column renderer with link to the customer card.
 ![demo](./docs/img/habr_grid_link_demo.png "Demo")
 
 
+You need to enable 'Customer Name' column if you don't see it in the grid:
+
+![init](./docs/img/habr_grid_link_columns.png "Init")
+
+
 
 ## Install
 
